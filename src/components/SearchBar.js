@@ -18,6 +18,7 @@ function SearchBar({handleOnSubmit, handleOnColorChange, handleOnWeightChange, e
               error={error ? true : false}
               helperText={error && 'Errorororo'}
               type="search"
+              fullWidth={true}
             />
 
             <TextField
@@ -27,6 +28,7 @@ function SearchBar({handleOnSubmit, handleOnColorChange, handleOnWeightChange, e
               onChange={handleOnWeightChange}
               error={error ? true : false}
               type="search"
+              fullWidth={true}
             />
           </div>
 

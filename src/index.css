@@ -37,6 +37,10 @@ body {
   justify-content: space-between;
 }
 
+.search-form__color-input {
+  margin-right: 15px;
+}
+
 .MuiInputBase-root {
   color: #000;
   padding-top: 20px;
