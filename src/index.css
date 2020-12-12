@@ -1,13 +1,78 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: unset;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.search-form {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 15px;
+  justify-content: flex-end;
+}
+
+.search-bar {
+  padding-bottom: 20px;
+  background-color: #8a8aff;
+}
+
+.search-bar__toolbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.search-bar__title {
+  color: #000;
+}
+
+.color-range__snackbar {
+  border-color: #000;
+  background-color: #fff;
+  color: #000;
+}
+
+.search-form .search-form-inputs{
+  margin-right: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.MuiInputBase-root {
+  color: #000;
+  padding-top: 20px;
+}
+
+.MuiInputBase-root:hover:not(.Mui-disabled)::before{
+  border-width: 2px;
+  border-color: #000;
+}
+
+.MuiInputBase-root::before {
+  border-color: #000;
+}
+
+.MuiInputBase-root::after {
+  border-color:  #000;
+}
+
+.search-form__submit-input {
+  color: #000;
+  border-color: #000;
+}
+
+.color-list .list-bar__color-info {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.MuiGridListTileBar-title {
+  color: #000;
+}
+
+.MuiFormHelperText-root {
+  position: absolute;
+  top: 0;
+}
+
+.color-list .list-icon__copy {
+  color: #000
 }
